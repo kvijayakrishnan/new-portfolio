@@ -10,12 +10,12 @@ const Home = () => {
         className='h-screen w-full bg-gradient-to-b from-black to-gray-900'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h6 className="text-4xl sm:text-2xl font-bold text-white max-md:mt-36">
+                <h6 className="text-xl sm:text-xl font-bold text-white max-md:mt-40 font-thin">
                     Hi..
                 </h6>
-                <h2 className='text-3xl sm:text-5xl font-bold text-white mt-2'> I'm Vijaya krishnan.</h2>
-                <h2 className='text-3xl sm:text-2xl font-bold text-white mt-1'>MERN Stack Web Developer.</h2>
-                <h5 className='text-white font-light text-2xl py-4 max-w-[700px]'> I'm passionate Full-stack developer as a beginner to intermidiate level.
+                <h2 className='text-3xl sm:text-5xl font-bold text-white mt-2'> <span className='font-thin'> I'm</span>  Vijaya krishnan.</h2>
+                <h2 className='text-3xl sm:text-2xl font-bold text-white mt-1 font-thin'>MERN Stack Web Developer.</h2>
+                <h5 className='text-white font-light text-2xl py-4  font-thin'> I'm passionate Full-stack developer as a beginner to intermidiate level.
                     Currently, I'm focused on building responsive full-stack web
                     applications.
                 </h5>
@@ -35,7 +35,7 @@ const Home = () => {
             <div>
                 <img src={HeroImage} 
                     alt="my profile" 
-                    className='rounded-2xl w-64 mx-auto w-80 max-md:w-52' />
+                    className='rounded-2xl w-64 mx-auto w-80 max-md:w-52 max-w-[700px]' />
             </div>
         </div>
     </div>
