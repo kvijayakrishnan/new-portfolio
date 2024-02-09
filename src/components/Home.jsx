@@ -1,9 +1,23 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 import HeroImage from '../assets/heroImage.png'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
 const Home = () => {
+    // const TextSwitcher = () =>{
+    //     const [text, setText] = useState('Hello')
+    //     useEffect(() =>{
+    //         const interval = setInterval(() =>{
+    //             setText(text === "Hello" ?"World":"Hello")
+    //         },1000);
+    
+    //         return () =>clearInterval(interval);
+    //     },[text])
+    // }
+
+    
+
+
   return (
     <div 
         name='home' 
@@ -13,12 +27,13 @@ const Home = () => {
                 <h6 className="text-xl sm:text-xl font-bold text-white max-md:mt-40 font-thin">
                     Hi..
                 </h6>
-                <h2 className='text-3xl sm:text-5xl font-bold text-white mt-2'> <span className='font-thin'> I'm</span>  Vijaya krishnan.</h2>
+                <h2 className='text-3xl sm:text-5xl font-bold text-white mt-2'> <span className='font-thin'> I'm</span>  Vijayakrishnan</h2>
                 <h2 className='text-3xl sm:text-2xl font-bold text-white mt-1 font-thin'>MERN Stack Web Developer.</h2>
                 <h5 className='text-white font-light text-2xl py-4  font-thin'> I'm passionate Full-stack developer as a beginner to intermidiate level.
                     Currently, I'm focused on building responsive full-stack web
                     applications.
                 </h5>
+                {/* <div>{text}</div> */}
                 <div>
                     <Link 
                         to='portfolio'
@@ -32,11 +47,11 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div>
+            {/* <div>
                 <img src={HeroImage} 
                     alt="my profile" 
                     className='rounded-2xl w-64 mx-auto w-80 max-md:w-52 max-w-[700px]' />
-            </div>
+            </div> */}
         </div>
     </div>
   )
