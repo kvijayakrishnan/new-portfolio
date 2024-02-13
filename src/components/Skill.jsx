@@ -109,7 +109,7 @@ const Skill = () => {
                         key={id}
                         className={` text-xl font-thin shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
                     >
-                        <img src={src} alt='' className='w-20 mx-auto' />
+                        <img src={src} alt='' className='w-5 mx-auto' />
                         <p className='mt-4'>{title}</p>
                     </div>
 
