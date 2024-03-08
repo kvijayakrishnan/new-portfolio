@@ -62,8 +62,8 @@ function Portfolio() {
                             className='rounded-md duration-300 hover:scale-105 '
                         />
                         <div key={description} >
-                            <h5 className=' text-xl'>Description</h5>
-                            <p className=' text-sm font-thin'>{description}</p>
+                            <h5 className=' text-xl pl-1 pt-1'>Description</h5>
+                            <p className=' text-sm font-thin p-1 pl-2'>{description}</p>
                             
                         </div>
                     
