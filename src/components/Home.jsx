@@ -4,16 +4,8 @@ import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
 const Home = () => {
-    // const TextSwitcher = () =>{
-    //     const [text, setText] = useState('Hello')
-    //     useEffect(() =>{
-    //         const interval = setInterval(() =>{
-    //             setText(text === "Hello" ?"World":"Hello")
-    //         },1000);
+ 
     
-    //         return () =>clearInterval(interval);
-    //     },[text])
-    // }
 
     
 
