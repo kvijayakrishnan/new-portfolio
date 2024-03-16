@@ -51,7 +51,13 @@ function About() {
                 </p>
             </div>
             <p className='text-xl font-thin text-white mt-6'>
-                I'm a self-taught web developer who designs new features from start to finish, turning ideas into working software. I pay close attention to the user experience and aim to write efficient, reusable code. I'm passionate about blending design, technology, and innovation in all my projects, which I guide from the initial idea to release. Right now, I'm concentrating on full-stack development.
+
+                A Self-Taught Web Developer in designing new features from ideation to production, 
+                implementation of design flows into high-performance web applications. 
+                Taking into consideration the user experience while writing reusable and efficient code. 
+                Passionately combining good design, technology, and innovation in all projects, 
+                accompanying from the first idea to release. Currently focused on full-stack development.
+
             </p>
             <ul >
               <li className='flex flex-row  justify-start  text-white px-2 gap-8 py-8'>
