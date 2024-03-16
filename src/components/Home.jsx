@@ -4,9 +4,20 @@ import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
 const Home = () => {
- 
+    const [word, setWord] =useState('Frontend')
     
+    useEffect(() =>{
+        const words = ['Frontend', 'Backend', 'Full Stack']
+        let index= 0
 
+        const interval = setInterval(() =>{
+            setWord(words[index]);
+            index = (index + 1) % words.length;
+        },1000);
+
+        return () => clearInterval(interval)
+
+    },[])
     
 
 
@@ -16,15 +27,14 @@ const Home = () => {
         className='h-screen w-full bg-gradient-to-b from-black to-gray-900'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h6 className="text-xl sm:text-xl font-bold text-white max-md:mt-40 font-thin">
-                    Hi..
-                </h6>
-                <h2 className='text-3xl sm:text-5xl font-bold text-white mt-2'> <span className='font-thin'> I'm</span>  Vijayakrishnan</h2>
-                <h2 className='text-3xl sm:text-2xl font-bold text-white mt-1 font-thin'>MERN Stack Web Developer.</h2>
-                <h5 className='text-white font-light text-2xl py-4  font-thin'> I'm passionate Full-stack developer as a beginner to intermidiate level.
-                    Currently, I'm focused on building responsive full-stack web
-                    applications.
-                </h5>
+                <h1 className="text-xl sm:text-xl font-bold text-white max-md:mt-40 font-thin">
+                    Hi there 👋
+                </h1>
+                <h2 className='text-3xl sm:text-5xl font-bold text-white mt-2'> <span className='font-thin text-4xl'> My name is</span>  Vijayakrishnan K</h2>
+                <h2 className='text-3xl sm:text-2xl font-bold text-white mt-1 font-thin'>{word} Developer.</h2>
+                {/* <h5 className='text-white font-light text-2xl py-4  font-thin'> Passionate full-stack developer.
+                currently focused on building responsive full-stack web applications 
+                </h5> */}
                 {/* <div>{text}</div> */}
                 <div>
                     <Link 
