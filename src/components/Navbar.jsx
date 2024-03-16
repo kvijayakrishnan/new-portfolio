@@ -34,9 +34,10 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
         <div>
-            <h1 className='text-5xl font-signature ml-2'>VijayaKrishnan</h1>
+            <h1 className='text-3xl font-signature ml-2'>VijayaKrishnan</h1>
         </div>
 
+        <div className=' text-xl '>
         <ul className="hidden md:flex">
           {links.map(({id, link}) =>(
             <li 
@@ -55,7 +56,7 @@ const Navbar = () => {
           {links.map(({id, link}) =>(
             <li
               key={id}
-              className='px-4 cursor-pointer capitalize py-6 text-4xl'
+              className='px-4 cursor-pointer capitalize py-6'
             >
               <Link 
                 onClick={() =>setNav(!nav)}
@@ -65,6 +66,7 @@ const Navbar = () => {
       </ul>
 
         )}
+        </div>
 
         
 
