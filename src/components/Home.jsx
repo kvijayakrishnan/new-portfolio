@@ -31,7 +31,7 @@ const Home = () => {
                     Hi there 👋
                 </h1>
                 <h2 className='text-3xl sm:text-5xl font-bold text-white mt-2'> <span className='font-thin text-4xl'> My name is</span>  Vijayakrishnan K</h2>
-                <h2 className='text-3xl sm:text-2xl  text-white mt-1 font-thin'>{word}</h2>
+                <h2 className='text-3xl sm:text-2xl  text-white mt-1 font-thin py-4'>{word}</h2>
                 {/* <h5 className='text-white font-light text-2xl py-4  font-thin'> Passionate full-stack developer.
                 currently focused on building responsive full-stack web applications 
                 </h5> */}
