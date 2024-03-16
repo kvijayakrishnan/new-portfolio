@@ -29,15 +29,6 @@ function About() {
       id:3,
       child:(
         <>
-          <HiOutlineMail size={30} />
-        </>
-      ),
-      href:"mailto:vijayakrishnankbv@yahoo.in",
-    },
-    {
-      id:4,
-      child:(
-        <>
           <BsFillPersonLinesFill size={30} />
         </>
       ),
@@ -63,10 +54,10 @@ function About() {
                 I'm a self-taught web developer who designs new features from start to finish, turning ideas into working software. I pay close attention to the user experience and aim to write efficient, reusable code. I'm passionate about blending design, technology, and innovation in all my projects, which I guide from the initial idea to release. Right now, I'm concentrating on full-stack development.
             </p>
             <ul >
-              <li className='flex flex-row  justify-center text-white px-2 gap-8 py-1'>
+              <li className='flex flex-row  justify-start  text-white px-2 gap-8 py-8'>
                 {social.map(({id,child,href,style, download}) =>(
                   <li 
-                    className='hover:scale-150 duration-500 py-3' 
+                    className='hover:scale-150 duration-500' 
                   key={id}
                     
                   >
