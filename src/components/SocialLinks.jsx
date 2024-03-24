@@ -11,7 +11,7 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin />
                 </>
             ),
-            href:"https://www.linkedin.com/in/vijay-krishnan-1a99aa228/",
+            href:"https://www.linkedin.com/in/vijayakrishnank01/",
             style:'rounded-tr-md',
             download:false
         },

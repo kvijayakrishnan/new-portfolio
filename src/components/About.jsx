@@ -13,7 +13,7 @@ function About() {
           <FaLinkedin size={30} />
         </>
       ),
-      href:"https://www.linkedin.com/in/vijay-krishnan-1a99aa228/",
+      href:"https://www.linkedin.com/in/vijayakrishnank01/",
       style:'rounded-tr-md',
     },
     {
