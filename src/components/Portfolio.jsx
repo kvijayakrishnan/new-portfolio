@@ -26,6 +26,7 @@ function Portfolio() {
         {
             id:1,
             src: passwordreset,
+            heading: 'Reset User password',
             description:'This app helps you reset your password if you forget it. Just put in your email, and well help you make a new password thats safe.',
             demo:'https://earnest-quokka-fcdbba.netlify.app',
             bcode:'https://github.com/kvijayakrishnan/day37-password-reset-server',
@@ -34,6 +35,7 @@ function Portfolio() {
         {
             id:2,
             src: userauth,
+            heading: 'Session Management',
             description:'This app uses Redis database to manage your sessions. It helps keep track of your login status and other information securely while you are using the app.',
             demo:'https://vijayuserauth.netlify.app/',
             bcode:'https://github.com/kvijayakrishnan/UserAuth-backend',
@@ -55,14 +57,14 @@ function Portfolio() {
             </div>
 
             <div className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-0 '>
-                {portfolios.map(({id, src,description, demo, bcode, fcode})=>(
+                {portfolios.map(({id, src,heading, description, demo, bcode, fcode})=>(
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                         <img src={src}
                             alt=''
                             className='rounded-md duration-300 hover:scale-105 '
                         />
                         <div key={description} >
-                            <h5 className=' text-xl pl-2 pt-1'>Description</h5>
+                            <h1 className=' text-xl pl-2 pt-1 text-center pt-2 text-gray-500'>{heading}</h1>
                             <p className=' text-sm font-thin p-1 pl-2'>{description}</p>
                             
                         </div>
