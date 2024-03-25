@@ -13,7 +13,7 @@ const Contact = () => {
           <FaLinkedin size={30} />
         </>
       ),
-      href:"https://www.linkedin.com/in/vijay-krishnan-1a99aa228/",
+      href:"https://www.linkedin.com/in/vijayakrishnank-mernstackdeveloper/",
       style:'rounded-tr-md',
     },
     {
