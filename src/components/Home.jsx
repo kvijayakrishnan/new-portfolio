@@ -4,20 +4,20 @@ import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
 const Home = () => {
-    const [word, setWord] =useState('Frontend')
+    // const [word, setWord] =useState('Frontend')
     
-    useEffect(() =>{
-        const words = ['Frontend Developer', 'Backend Developer', 'Full Stack Developer']
-        let index= 0
+    // useEffect(() =>{
+    //     const words = ['Frontend Developer', 'Backend Developer', 'Full Stack Developer']
+    //     let index= 0
 
-        const interval = setInterval(() =>{
-            setWord(words[index]);
-            index = (index + 1) % words.length;
-        },1500);
+    //     const interval = setInterval(() =>{
+    //         setWord(words[index]);
+    //         index = (index + 1) % words.length;
+    //     },1500);
 
-        return () => clearInterval(interval)
+    //     return () => clearInterval(interval)
 
-    },[])
+    // },[])
     
 
 
@@ -31,7 +31,10 @@ const Home = () => {
                     Hi there 👋
                 </h1>
                 <h2 className='text-3xl sm:text-5xl font-bold text-white mt-2'> <span className='font-thin text-4xl'> My name is</span>  Vijayakrishnan K</h2>
-                <h2 className='text-3xl sm:text-2xl  text-white mt-1 font-thin py-4'>{word}</h2>
+                {/* <h2 className='text-3xl sm:text-2xl  text-white mt-1 font-thin py-4'>{word}</h2> */}
+                {/* <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=san&duration=2000&pause=100&color=FFFFFF&background=0517AC0B&random=false&width=435&lines=Frontend+Developer;Backend+Developer;Full+Stack+Developer" alt="Typing SVG" /></a> */}
+                <a href="https://git.io/typing-svg"><img className='mt-2' src="https://readme-typing-svg.herokuapp.com?font=san&size=25&duration=2000&pause=100&color=FFFFFF&background=0517AC0B&random=false&width=435&lines=Frontend+Developer;Backend+Developer;Full+Stack+Developer" alt="Typing SVG" /></a>
+                {/* <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=san&size=25&pause=500&color=FFFFFF&background=0517AC0B&random=false&width=435&lines=Frontend+Developer;Backend+Developer;Full+Stack+Developer" alt="Typing SVG" /></a> */}
                 {/* <h5 className='text-white font-light text-2xl py-4  font-thin'> Passionate full-stack developer.
                 currently focused on building responsive full-stack web applications 
                 </h5> */}
