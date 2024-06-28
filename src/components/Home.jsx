@@ -28,7 +28,7 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
                 <h1 className="text-xl sm:text-xl font-bold text-white max-md:mt-40 font-thin">
-                    Hi there 👋
+                    Hello
                 </h1>
                 <h2 className='text-3xl sm:text-5xl font-bold text-white mt-2'> <span className='font-thin text-4xl'> My name is</span>  Vijayakrishnan K</h2>
                 {/* <h2 className='text-3xl sm:text-2xl  text-white mt-1 font-thin py-4'>{word}</h2> */}
