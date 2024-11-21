@@ -41,7 +41,7 @@ const Contact = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href:"https://drive.google.com/file/d/1dZbt1jN8xk3ff6X6Y9oj29fnSb7QawG8/view?usp=sharing",
+      href:"https://drive.google.com/file/d/17DBVzkXvnZwF5flIMiKC6r7TzjnObxy0/view?usp=drive_link",
       style:'rounded-br-md',
       download:true,
     },

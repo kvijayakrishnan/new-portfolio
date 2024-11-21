@@ -3,7 +3,7 @@ import moviesfrontend from '../assets/portfolio/movies-frontend.png'
 import passwordreset from '../assets/portfolio/password-reset.png'
 import youtube from '../assets/portfolio/Youtube.png'
 import userauth from '../assets/portfolio/user-auth.png'
-
+import notesapp from '../assets/portfolio/notes-app.png'
 
 function Portfolio() {
     const portfolios = [
@@ -18,29 +18,43 @@ function Portfolio() {
         // {
         //     id:2,
         //     src: youtube,
+        //     heading: 'Youtube Clone',
         //     description:'In this app clone a youtube and show the content of youtube using html css js',
         //     demo:'https://demo-youtube-clone.netlify.app',
         //     bcode:'https://github.com/kvijayakrishnan/Youtube-clone',
-        //     // fcode:"",
+        //     fcode:"",
         // },
         {
             id:1,
-            src: passwordreset,
-            heading: 'Reset User password',
-            description:'This app helps you reset your password if you forget it. Just put in your email, and well help you make a new password thats safe.',
-            demo:'https://earnest-quokka-fcdbba.netlify.app',
-            bcode:'https://github.com/kvijayakrishnan/day37-password-reset-server',
-            fcode:"https://github.com/kvijayakrishnan/day37-password-reset-client",
+            src: notesapp,
+            heading: 'Notes application',
+            description:'Users can create, view, edit, and delete notes with tags after signing up and logging in',
+            demo:'https://vijayuserauth.netlify.app/',
+            bcode:'https://github.com/kvijayakrishnan/Notes-app-backend',
+            fcode:"https://github.com/kvijayakrishnan/Notes-app-frontend",
         },
+        
         {
             id:2,
             src: userauth,
             heading: 'Session Management',
-            description:'This app uses Redis database to manage your sessions. It helps keep track of your login status and other information securely while you are using the app.',
+            description:'Users will register with their valid email addresses, and an activation link will be sent to them.',
             demo:'https://vijayuserauth.netlify.app/',
             bcode:'https://github.com/kvijayakrishnan/UserAuth-backend',
             fcode:"https://github.com/kvijayakrishnan/UserAuth-frontend",
         },
+        
+        {
+            id:3,
+            src: passwordreset,
+            heading: 'Reset User password',
+            description:'If a user forgets their password, a password reset link will be sent to their valid email address',
+            demo:'https://earnest-quokka-fcdbba.netlify.app',
+            bcode:'https://github.com/kvijayakrishnan/day37-password-reset-server',
+            fcode:"https://github.com/kvijayakrishnan/day37-password-reset-client",
+        },
+        
+        
     ]
 
 
