@@ -32,7 +32,7 @@ function About() {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href:"https://drive.google.com/file/d/1dZbt1jN8xk3ff6X6Y9oj29fnSb7QawG8/view?usp=sharing",
+      href:"https://drive.google.com/file/d/1CWMUTxygC1DS_lac9GouWcdxbka4Fk_i/view?usp=drive_link",
       style:'rounded-br-md',
       download:true,
     },
