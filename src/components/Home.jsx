@@ -30,7 +30,7 @@ const Home = () => {
                 <h1 className="text-xl sm:text-xl font-bold text-white max-md:mt-40 font-thin">
                     Hello
                 </h1>
-                <h2 className='text-3xl sm:text-5xl font-bold text-white mt-2'> <span className='font-thin text-4xl'> My name is</span>  Vijayakrishnan K</h2>
+                <h2 className='text-3xl sm:text-5xl font-bold text-white mt-2'> <span className='font-thin text-4xl'> My name is</span> Vijayakrishnan K</h2>
                 {/* <h2 className='text-3xl sm:text-2xl  text-white mt-1 font-thin py-4'>{word}</h2> */}
                 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=san&duration=2000&pause=100&color=FFFFFF&background=0517AC0B&random=false&width=435&lines=Frontend+Developer;Backend+Developer;Full+Stack+Developer" alt="Typing SVG" /></a>
                 {/* <a><img className='mt-2' src="https://readme-typing-svg.herokuapp.com?font=san&size=25&duration=2000&pause=500&color=FFFFFF&background=0517AC0B&random=false&width=435&lines=Full+Stack+Developer+MERN+Stack" alt="Typing SVG" /></a> */}
