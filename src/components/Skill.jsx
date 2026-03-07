@@ -6,6 +6,7 @@ import react from '../assets/react.png'
 import node from '../assets/node.png'
 import sql from '../assets/mysql.png'
 import mongo from '../assets/mongodb.png'
+import express from '../assets/express.png'
 import bootstrap from '../assets/bootstrap.png'
 import tailwind from '../assets/tailwind.png'
 import netlify from '../assets/netlify.png'
@@ -18,6 +19,30 @@ import github from '../assets/github.png'
 const Skill = () => {
 
     const skills = [
+        {
+            id:1,
+            src:mongo,
+            title: 'Mongo DB',
+            style: 'shadow-green-300'
+        },
+        {
+            id:1,
+            src: express,
+            title: 'Express',
+            style: 'shadow-white'
+        },
+        {
+            id:1,
+            src:react,
+            title: 'React Js',
+            style: 'shadow-sky-400'
+        },
+        {
+            id:1,
+            src:node,
+            title: 'Node Js',
+            style: 'shadow-green-700'
+        },
         {
             id:1,
             src:html,
@@ -38,28 +63,10 @@ const Skill = () => {
         },
         {
             id:1,
-            src:react,
-            title: 'React Js',
-            style: 'shadow-sky-400'
-        },
-        {
-            id:1,
-            src:node,
-            title: 'Node Js',
-            style: 'shadow-green-700'
-        },
-        {
-            id:1,
             src:sql,
             title: 'My Sql',
             style: 'shadow-blue-300'
-        },
-        {
-            id:1,
-            src:mongo,
-            title: 'Mongo DB',
-            style: 'shadow-green-300'
-        },
+        },        
         {
             id:1,
             src:bootstrap,
