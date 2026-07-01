@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import HeroImage from '../assets/heroImage.png'
-import HeroJpeg from '../assets/hero.jpeg' 
+import HeroJpeg from '../assets/heroImage.png' 
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 

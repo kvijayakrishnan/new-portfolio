@@ -82,6 +82,17 @@ function About() {
             </ul>
         </div>
         <div>
+          <div>
+             <p className='text-4xl text-white font-bold inline border-b-4 border-gray-500'>
+                    Education
+                </p>
+          </div>
+          <p className='text-xl font-thin text-white mt-6'>
+            DEEE 
+            <div><p> Srinivasa Polytechnic College -Keeranur</p></div>
+          </p>
+        </div>
+        <div>
             
           </div>
 
