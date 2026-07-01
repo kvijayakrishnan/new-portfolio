@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import HeroImage from '../assets/heroImage.png'
-// import HeroJpeg from '../assets/heroImage.png' 
+import HeroJpeg from '../assets/hero.jpeg' 
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
@@ -54,7 +54,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <img src={HeroImage} alt="Vijay image" className='h-80 py-1 m-6 mr-4'/>
+                <img src={HeroJpeg} alt="Vijay image" className='h-80 py-1 m-6 mr-4'/>
             </div>
             {/* <div>
                 <img src={HeroImage} 
